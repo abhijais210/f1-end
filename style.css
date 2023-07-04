@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    font-family: 'Ruda', sans-serif;
+    scroll-behavior: smooth;
+   }
+   
+   .header{
+    display: flex;
+    position: fixed;
+    width:100%;
+    justify-content: space-between;
+    z-index:1000;
+    background-color: black;
+    color:white;
+    height:6rem;
+    align-items: center;
+ }
+ .header .head h1{
+     font-size:2.4rem;
+     margin-left: 4rem;
+ 
+ }
+ .header .links{
+     display: flex;
+     column-gap: 2rem;
+    
+ }
+ .links .link a{
+     color:white;
+     list-style-type: none;
+     text-decoration: none;
+     font-size: 1.1rem;
+ }
+ .header .icons{
+     display: flex;
+      margin-right: 4rem;
+     column-gap: 3.5rem;
+ }
+ .icons .icon a{
+     color:white;
+     font-size:1.5rem;
+ }
+   
+   .background{
+       height: 100vh;
+       width: 100%;
+       background: url(https://assets.teenvogue.com/photos/5ab665d06d36ed4396878433/master/pass/GettyImages-519526540.jpg);
+       background-position: center;
+       background-size: cover;
+       opacity: 0.8;
+       
+   }
+   
+   .description{
+       position:relative;
+       top:12rem;
+       left:6rem;
+       
+   }
+   .main .description .h1{
+    font-size:5.5rem;
+    color:white;
+    opacity: 1;
+
+   }
+   .description .line{
+       width:25rem;
+       height:.7rem;
+       background:rgba(242, 76, 76, 1);
+       margin:2rem .5rem;
+      
+   }
+   .description .line p{
+       float: left;
+       margin:5rem 0;
+       font-size:1.2rem;
+       font-weight:400;
+       line-height: 2rem;
+       color:white;
+   }
+   /* ............................ */
+
+   /* >>>>>>>>>>>>>>>>>>>>>> about section <<<<<<<<<<<<<<<<<<< */
+   
+   .about{
+       background: black;
+       padding: 2rem;
+       margin-top: 5rem;
+       
+   }
+   
+   .maincontainer{
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+   }
+   .about .maincontainer h1{
+       color:white;
+   
+       font-size: 2rem;
+       text-align: center;
+       margin-left:600px;
+       text-transform: uppercase;
+       text-decoration: none;
+   }
+   .aboutline{
+    height:6px;
+    width:15rem;
+    margin-left:600px;
+    margin-top:1rem;
+    background:rgba(242, 76, 76, 1);
+   }
+   .descriptionaboutus{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    margin: 2rem auto;
+}
+.descriptionaboutus p{
+    color:white;
+    text-align: justify;
+    font-size:1rem;
+    border-top: 4px sloid rgba(242, 76, 76, 1);
+       font-weight:400;
+       line-height: 1.5rem;
+       color:white;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>> menu section <<<<<<<<<<<<<<<<<<< */
+
+   .main{
+       background: black;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+      
+   }
+   .imagegrid img{
+       height: 20vh;
+       width: 10vw;
+       margin-right: 2rem;
+   }
+  .main h1{
+    color:white;
+   
+    font-size: 2rem;
+    text-align: center;
+    /* margin-left:400px; */
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+   .main .maincontainer p{
+       color:white;
+       margin:3rem 9rem;
+       text-align: center;
+       font-size:1.2rem;
+       font-weight:400;
+       line-height: 2rem;
+   }
+   
+.imagegrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90vw;
+    margin: 0 auto;
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+    padding: 3rem;
+   margin-left:10rem;
+}
+.pizzaimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.main .pizzaimage p ,h2{
+    color:white;
+    width:50%;
+}
+.main .pizzaimage h2{
+    padding:1rem 0;
+    color:goldenrod;
+}
+
+/* >>>>>>>>>>>>>>>>>>>> carousel <<<<<<<<<<<<<<<<<<<<<< */
+
+.carousel .maincontainer{
+    margin:5rem;
+}
+.carousel .maincontainer h1{
+    text-align: center;
+    margin-left:500px;
+}
+.carousel .maincontainer .aboutline{
+    margin-left:500px ;
+}
+
+/* >>>>>>>>>>>>>>>>>>>> gallery<<<<<<<<<<<<<<<<<<<< */
+.gal .maincontainer h1{
+    text-align: center;
+    margin-left:600px;
+    margin-top: 5rem;
+}
+.gal .maincontainer .aboutline{
+    margin-left:600px ;
+    margin-bottom:5rem;
+}
+
+.Gallary{
+    display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: space-between;
+     color: white;
+     padding-bottom: 10px;
+    }
+    #gallary::after{
+     content: " ";
+ position:absolute;
+ display:block;
+  left: 35%; 
+ width: 30%;
+ height: 4px;
+
+
+ background-color:red;
+    }
+    #cad{
+        background-color: black;
+        padding:5px;
+    
+    }
+#ims{
+    padding-bottom: 10px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>> find us <<<<<<<<<<<<<<<<<<<<<<< */
+
+.findus{
+   
+    height: 100vh;
+    
+    padding-top:100px;
+    background: black;
+
+}
+
+.text{color: white;
+}
+.text h1{
+   
+    text-align: center;
+    
+}
+.map p{
+color:white;
+text-align: justify;}
+
+.map{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5rem;
+    width: 90%;
+    height: 300px;
+    margin:0 auto;
+    
+}
+iframe{
+    height: 100%;
+width: 100%;}
+#finds::after{
+    content: " ";
+position:absolute;
+display:block;
+ left: 35%; 
+width: 30%;
+height: 4px;
+margin-bottom: 10px;
+
+background-color:red;
+   }
+
+   
+   spam{
+    color: white;
+   }
+   .copywrite{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    flex-direction: row;
+    color:white;
+    margin: 0 auto;
+}
+.bottom{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+   
+   @media only screen and (max-width: 956px) {
+       *{
+           margin: 0;
+           padding: 0;
+       }
+       .navigation{
+           display: flex;
+           flex-direction: column;
+           width: 100vw;
+           height: 100vh;
+         
+           
+       }
+       .descriptionaboutus{
+           padding: 2rem;
+           display: grid;
+           grid-template-columns: 1fr ;
+           column-gap: 2rem;
+           margin: 0 auto;
+       }
+       .left{
+           display: flex;
+           width: 100%;
+           height: 30%;
+       }
+       .link{
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+           height: 100%;
+           margin:  0 auto;
+           
+   
+       }
+       #close{
+           display: block;
+       }
+       .right{
+           display: none;
+       }
+       .link a{
+           margin:  auto;
+       }
+       .description h1{
+      font-size: 200%;
+       }
+       .description p{
+           width: 100%;
+       }
+       .imagegrid {
+           display: grid;
+           grid-template-columns: 1fr;
+       }
+       .pizzaimage{
+           display: flex;
+           flex-direction: column;
+       }
+       .pizzaimage p{
+           width: 80vw;
+       }
+       .copywrite{
+           display: flex;
+           width: 80%;
+           justify-content: space-between;
+           flex-direction: column;
+           color:white;
+           margin: 0 auto;
+       }
+       .findus{
+           background: black;
+           height: 100vh;
+           
+       }
+       .bottom{
+           height: 100%;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+       }
+       .map{
+           display: grid;
+           grid-template-columns: 1fr ;
+           column-gap: 5rem;
+           width: 80%;
+           margin: 0 auto;
+           
+       }
+       
+       .pizzaimage p{
+           width: 100%;
+           text-align: center;
+       }
+       .pizzaimage img{
+           width: 100%;
+           height: 100%;
+           text-align: center;
+       }
+       iframe{
+       height: 150%;
+       width: 100%;}
+       .copywrite{
+           margin: 0 auto;
+           width: 50%;
+           padding: 1rem;
+           display: flex;
+           align-items: center;
+       }
+       .maincontainermobile{
+           position: absolute;
+       }
+     }
+
+
+     
